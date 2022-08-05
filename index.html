@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <div class="container">
+        <header class="logo">
+            <h1>Net<span class="logo-red">flix</span></h1>
+            <p class="par1">
+                Thank you for signing up at Netflix. Tell us more about yourself
+            </p>
+        </header>
+
+        <main class="sign-in">
+            <p class="thanks">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, nam.</p>
+            <form action="" method="post" class="form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Enter your name" id="name">
+                    </li>
+                        
+                    <li>
+                        <label for="age">Age</label>
+                        <input type="number" name="Age" id="age" placeholder="Age">
+                    </li>
+                    
+                    <li>
+                        <label for="email">E mail</label>
+                        <input type="email" name="Email" id="email" placeholder="Email">
+                    </li>
+                </ul>
+                
+                <div class="content-type">
+                    
+                    <label for="content">Content Type</label>
+                    <br>
+                    <input list="contents" name="content" id="content" placeholder="Series">
+                    <datalist id="contents">
+                        <option value="Series">Series</option>
+                        <option value="Movie">Movie</option>
+                        <option value="Talkshow">Talkshow</option>
+                        <option value="cartoon">cartoon</option>
+                    </datalist>
+                </div>
+                <div class="movie-type">
+                    
+                            <span class="movie-t">Movie Type</span>
+                       <br>
+                            <input type="checkbox" name="movie-type" id="movie-type">
+                            <label for="movie-type">Comedy</label>
+                        <br>
+                            <input type="checkbox" name="movie-type" id="movie-type">
+                            <label for="movie-type">Action</label>
+                        <br>
+                            <input type="checkbox" name="movie-type" id="movie-type">
+                            <label for="movie-type">Romance</label>   
+                </div>
+                <div class="gender">
+                    
+                            <span class="cins">Gender</span>
+                       <br>
+                            <input type="radio" name="gender" id="gender">
+                            <label for="gender">Male</label>
+                        <br>
+                            <input type="radio" name="gender" id="gender">
+                            <label for="gender">Female</label>
+                        <br>
+                            <input type="radio" name="gender" id="gender">
+                            <label for="gender">Other</label>   
+                </div>
+                <div class="feedback">
+                    <p>Feedback</p>
+                    <textarea name="feedback" id="feedback" cols="50" rows="7">Any comment</textarea>
+                </div>
+                <input type="submit" value="Submit" class="submit">
+            </form>
+
+
+
+
+
+
+
+        </main>
+
+    </div>
+    
+</body>
+</html>
